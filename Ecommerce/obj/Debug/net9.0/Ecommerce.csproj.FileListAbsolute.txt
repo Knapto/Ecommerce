@@ -206,7 +206,6 @@ C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\a3ygk
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\ukstm540yu-b9sayid5wm.gz
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\20orpprlfe-61n19gt1b8.gz
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\itphxkcffk-xtxxf3hu2r.gz
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\s55j8g5w5i-bqjiyaj88i.gz
@@ -286,3 +285,4 @@ C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\refint\Ecommerce
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\Ecommerce.pdb
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\Ecommerce.genruntimeconfig.cache
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\ref\Ecommerce.dll
+C:\Users\Knap\source\repos\Ecommerce\Ecommerce\obj\Debug\net9.0\compressed\ukstm540yu-zpue43sgfh.gz

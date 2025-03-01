@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ViKhCXl7aRxkXidrmwcxbXNZ5kU/L2Uud0XNhZz86KI=",
+  "Hash": "owCsk6rl4S5lwOKtZsCjZBHv8EERjdsQFx+rbG7cgpQ=",
   "Source": "Ecommerce",
   "BasePath": "_content/Ecommerce",
   "Mode": "Default",
@@ -3503,12 +3503,12 @@
       "OriginalItemSpec": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-zpue43sgfh.gz",
       "SourceId": "Ecommerce",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Ecommerce",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=zpue43sgfh}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3517,8 +3517,8 @@
       "RelatedAsset": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "lv9o63dxy8",
+      "Integrity": "//WoJUaw9WX5sYxekyFDmHw5O+9jeLtQvOfkdrpIyvk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\css\\site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "zpue43sgfh",
+      "Integrity": "B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4068,6 +4068,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\images\\EmptyPlaceHolder.png",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "images/EmptyPlaceHolder#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oig5g1my2f",
+      "Integrity": "IImJoVnceR64DLj6U7V7AOIqOx6Q0uyD+eg/tB1/69o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\EmptyPlaceHolder.png"
     },
     {
       "Identity": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\js\\site.js",
@@ -5353,167 +5374,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003125000000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 16:43:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 16:43:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 16:43:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Knap\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\css\\site.css",
       "Selectors": [],
@@ -5552,12 +5412,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-zpue43sgfh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002793296089"
         }
       ],
       "ResponseHeaders": [
@@ -5567,15 +5427,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "357"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"//WoJUaw9WX5sYxekyFDmHw5O+9jeLtQvOfkdrpIyvk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 16:43:36 GMT"
+          "Value": "Sat, 01 Mar 2025 15:19:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5595,13 +5455,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY="
         }
       ]
     },
@@ -5616,7 +5476,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "757"
         },
         {
           "Name": "Content-Type",
@@ -5624,11 +5484,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 16:43:36 GMT"
+          "Value": "Sat, 01 Mar 2025 15:19:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5638,13 +5498,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-zpue43sgfh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5653,7 +5513,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "357"
         },
         {
           "Name": "Content-Type",
@@ -5661,11 +5521,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"//WoJUaw9WX5sYxekyFDmHw5O+9jeLtQvOfkdrpIyvk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 16:43:36 GMT"
+          "Value": "Sat, 01 Mar 2025 15:19:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5683,7 +5543,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-//WoJUaw9WX5sYxekyFDmHw5O+9jeLtQvOfkdrpIyvk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zpue43sgfh.css",
+      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-zpue43sgfh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002793296089"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "357"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"//WoJUaw9WX5sYxekyFDmHw5O+9jeLtQvOfkdrpIyvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 15:19:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpue43sgfh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zpue43sgfh.css",
+      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 15:19:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpue43sgfh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B8MNLTmwMO5+/6Cx4tx/FZmUbOHq3tgsDhL7TbwsSWY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zpue43sgfh.css.gz",
+      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\obj\\Debug\\net9.0\\compressed\\ukstm540yu-zpue43sgfh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"//WoJUaw9WX5sYxekyFDmHw5O+9jeLtQvOfkdrpIyvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 15:19:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpue43sgfh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-//WoJUaw9WX5sYxekyFDmHw5O+9jeLtQvOfkdrpIyvk="
         }
       ]
     },
@@ -15146,6 +15167,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "images/EmptyPlaceHolder.oig5g1my2f.png",
+      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\images\\EmptyPlaceHolder.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IImJoVnceR64DLj6U7V7AOIqOx6Q0uyD+eg/tB1/69o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 15:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oig5g1my2f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/EmptyPlaceHolder.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IImJoVnceR64DLj6U7V7AOIqOx6Q0uyD+eg/tB1/69o="
+        }
+      ]
+    },
+    {
+      "Route": "images/EmptyPlaceHolder.png",
+      "AssetFile": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\images\\EmptyPlaceHolder.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IImJoVnceR64DLj6U7V7AOIqOx6Q0uyD+eg/tB1/69o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 15:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IImJoVnceR64DLj6U7V7AOIqOx6Q0uyD+eg/tB1/69o="
         }
       ]
     },

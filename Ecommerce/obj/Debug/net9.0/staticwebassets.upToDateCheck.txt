@@ -62,6 +62,7 @@ C:\Users\Knap\source\repos\Ecommerce\Ecommerce\wwwroot\lib\jquery-validation-uno
 C:\Users\Knap\source\repos\Ecommerce\Ecommerce\wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\EmptyPlaceHolder.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

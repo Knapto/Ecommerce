@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\images\\EmptyPlaceHolder.png",
+      "PackagePath": "staticwebassets\\images\\EmptyPlaceHolder.png"
+    },
+    {
       "Id": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
