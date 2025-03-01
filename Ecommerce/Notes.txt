@@ -1,3 +1,4 @@
 ﻿
 Added Delete method
-Video stopped 1:39:35
+Added AddEdit method
+Video stopped 2:37:21
