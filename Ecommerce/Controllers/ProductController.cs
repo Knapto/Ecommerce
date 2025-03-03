@@ -36,8 +36,12 @@ namespace Ecommerce.Controllers
             }
             else
             {
+                Product product = await products.GetByIdAsync(id, new QueryOptions<Product>
+                {
+                    Includes = "ProductIngredients.Ingredient, Category"
+                });
                 ViewBag.Operation = "Edit";
-                return View();
+                return View(product);
             }
         }
 
@@ -45,7 +49,10 @@ namespace Ecommerce.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddEdit(Product product, int[] ingredientIds, int catId)
         {
-            if(ModelState.IsValid)
+            ViewBag.Ingredients = await ingredients.GetAllAsync();
+            ViewBag.Categories = await categories.GetAllAsync();
+
+            if (ModelState.IsValid)
             {
                 if (product.ImageFile != null)
                 {
@@ -61,8 +68,6 @@ namespace Ecommerce.Controllers
 
                 if (product.ProductId == 0)
                 {
-                    ViewBag.Ingredients = await ingredients.GetAllAsync();
-                    ViewBag.Categories = await categories.GetAllAsync();
                     product.CategoryId = catId;
 
                     foreach (int id in ingredientIds)
@@ -75,13 +80,43 @@ namespace Ecommerce.Controllers
                 }
                 else
                 {
-                    return RedirectToAction("Index", "Product");
+                    var existingProduct = await products.GetByIdAsync(product.ProductId, new QueryOptions<Product> { Includes = "ProductIngredients" });
+
+                    if (existingProduct == null)
+                    {
+                        ModelState.AddModelError("", "Product not found");
+                        ViewBag.Ingredients = await ingredients.GetAllAsync();
+                        ViewBag.Ctaegories = await categories.GetAllAsync();
+                        return View(product);
+                    }
+
+                    existingProduct.Name = product.Name;
+                    existingProduct.Description = product.Description;
+                    existingProduct.Price = product.Price;
+                    existingProduct.Stock = product.Stock;
+                    existingProduct.CategoryId = catId;
+
+                    existingProduct.ProductIngredients.Clear();
+                    foreach (int id in ingredientIds)
+                    {
+                        existingProduct.ProductIngredients?.Add(new ProductIngredient { IngredientId = id, ProductId = product.ProductId });
+                    }
+
+                    try
+                    {
+                        await products.UpdateAsync(existingProduct);
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", $"Error: {ex.GetBaseException().Message}");
+                        ViewBag.Ingredients = await ingredients.GetAllAsync();
+                        ViewBag.Categories = await categories.GetAllAsync();
+                        return View(product);
+
+                    }
                 }
             }
-            else
-            {
-                return View(product);
-            }
+            return RedirectToAction("Index", "Product");
         }
     }
 }

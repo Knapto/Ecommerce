@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\images\\61147cd9-6c0c-46dc-bc1f-68aaeda4b3b2_EmptyPlaceHolder.png",
+      "PackagePath": "staticwebassets\\images\\61147cd9-6c0c-46dc-bc1f-68aaeda4b3b2_EmptyPlaceHolder.png"
+    },
+    {
+      "Id": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\images\\757e4faf-94f3-4c33-b206-e09fb0982ff7_EmptyPlaceHolder.png",
+      "PackagePath": "staticwebassets\\images\\757e4faf-94f3-4c33-b206-e09fb0982ff7_EmptyPlaceHolder.png"
+    },
+    {
       "Id": "C:\\Users\\Knap\\source\\repos\\Ecommerce\\Ecommerce\\wwwroot\\images\\EmptyPlaceHolder.png",
       "PackagePath": "staticwebassets\\images\\EmptyPlaceHolder.png"
     },
