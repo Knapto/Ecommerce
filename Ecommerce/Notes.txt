@@ -1,4 +1,7 @@
 ﻿
 Added Delete method
 Added AddEdit method
-Video stopped 2:37:21
+starting Cart
+Coding OrderController
+Created class OrderViewModel
+Video stopped 3:11:45
